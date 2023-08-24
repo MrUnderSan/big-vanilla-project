@@ -1,4 +1,4 @@
-import {CityType} from '../02/02_02';
+import {CityType} from '../02-object/02_02';
 import {demolishHousesOnTheStreet, getBuildingsWithStaffCountGreaterThen} from './04_02';
 
 let city: CityType;

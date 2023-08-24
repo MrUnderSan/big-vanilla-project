@@ -1,9 +1,5 @@
-import {StudentType} from "../02/02";
-import {GovernmentBuildingType, HousesType} from "../02/02_02";
-
-const sum = (a: number, b: number) => {
-    return a + b;
-}
+import {StudentType} from "../02-object/02";
+import {GovernmentBuildingType, HousesType} from "../02-object/02_02";
 
 export const addSkill = (student: StudentType, skill: string) => {
     student.technologies.push({
